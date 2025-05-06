@@ -28,8 +28,9 @@
         <input type="email" name="email" placeholder="Email" value="{{ old('email') }}"><br>
         <input type="password" name="password" placeholder="Password"><br>
         <input type="password" name="password_confirmation" placeholder="Konfirmasi Password"><br>
-        <button type="submit">Simpan</button>
+        <button type="submit">Simpan</button><br>
         <a href="/contact/create"><button type="button">Halaman Add Contact</button></a>
+        <a href="/admin/create"><button type="button">Halaman Add Admin</button></a>
     </form>
 </body>
 
